@@ -38,7 +38,7 @@ const Sidebar = ({ open, onClose }: { open: boolean, onClose: () => void }) => {
                         component={Link}
                         to="/dashboard"
                         sx={{
-                            //display: 'flex',
+                            display: 'flex',
                             alignItems: 'center',
                             paddingLeft: "15px",
                             paddingRight: "15px",
