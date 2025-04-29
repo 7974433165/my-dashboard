@@ -6,7 +6,7 @@ import { Button, Paper, TextField, Grid, Box } from "@mui/material";
 
 const postSchema = z.object({
   title: z.string().min(3, "Title must be at least 3 characters"),
-  description: z.string().min(10, "Description must be at least 10 characters"),
+  description: z.string().min(12, "Description must be at least 10 characters"),
 });
 
 type PostFormData = z.infer<typeof postSchema>;
