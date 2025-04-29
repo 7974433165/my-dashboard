@@ -74,7 +74,7 @@ const CreatePost = () => {
                 sx={{
                   width: "100%", 
                   maxWidth: 200, 
-                  padding: "10px 20px",
+                  padding: "11px 20px",
                   marginTop: 2,
                   backgroundColor: "#3f51b5",
                 }}
